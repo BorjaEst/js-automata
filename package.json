@@ -1,0 +1,22 @@
+{
+  "name": "js-automata",
+  "version": "1.0.0",
+  "description": "Cellular Automata with JavaScript",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BorjaEst/js-automata.git"
+  },
+  "author": "Borja Esteban",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BorjaEst/js-automata/issues"
+  },
+  "homepage": "https://github.com/BorjaEst/js-automata#readme"
+}
