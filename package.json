@@ -7,7 +7,8 @@
     "test": "test"
   },
   "scripts": {
-    "build": "tsc -p tsconfig.json"
+    "build": "tsc -p tsconfig.json",
+    "test": "jest --detectOpenHandles --coverage --verbose"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/BorjaEst/js-automata/issues"
   },
-  "homepage": "https://github.com/BorjaEst/js-automata#readme"
+  "homepage": "https://github.com/BorjaEst/js-automata#readme",
+  "devDependencies": {
+    "@types/jest": "^29.0.0",
+    "ts-jest": "^28.0.8"
+  }
 }
