@@ -7,7 +7,10 @@
     "test": "test"
   },
   "scripts": {
-    "build": "tsc -p tsconfig.json",
+    "build": "npm run build:prod",
+    "build:prod": "webpack --mode production",
+    "build:dev": "webpack --mode development",
+    "watch": "tsc --watch",
     "test": "jest --detectOpenHandles --coverage --verbose"
   },
   "repository": {
@@ -22,6 +25,13 @@
   "homepage": "https://github.com/BorjaEst/js-automata#readme",
   "devDependencies": {
     "@types/jest": "^29.0.0",
-    "ts-jest": "^28.0.8"
+    "@types/lodash": "^4.14.185",
+    "ts-jest": "^28.0.8",
+    "ts-loader": "^9.3.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "loadash": "^1.0.0"
   }
 }
